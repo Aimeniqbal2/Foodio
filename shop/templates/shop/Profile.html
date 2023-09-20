@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<!-- Mirrored from winsfolio.net/html/foodio/index-3.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 12 Aug 2023 02:55:13 GMT -->
+<head>
+    {% load static %}
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foodio - Home</title>
+  <link rel="icon" href="{% static 'img/logo-icon.png' %}">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+  <!-- CSS only -->
+   <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}">
+   <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}">
+   <link rel="stylesheet" href="{% static 'css/owl.theme.default.min.css' %}">
+   <!-- fancybox -->
+   <link rel="stylesheet" href="{% static 'css/jquery.fancybox.min.css' %}">
+   <!-- Font Awesome 6 -->
+   <link rel="stylesheet" href="{% static 'css/fontawesome.min.css' %}">
+   <!-- style -->
+   <link rel="stylesheet" href="{% static 'css/style.css' %}">
+   <!-- responsive -->
+   <link rel="stylesheet" href="{% static 'css/responsive.css' %}">
+   <!-- color -->
+   <link rel="stylesheet" href="{% static 'css/color.css' %}">
+    <!-- jQuery -->
+   <script src="{% static 'js/jquery-3.6.0.min.js' %}"></script>
+   <script src="{% static 'js/preloader.js' %}"></script>
+ </head>
+ <style>
+      .popover-header {
+        background-color: #dfd7d7
+      }
+      <style>
+    .card {
+     border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  height: 400px;
+  margin: auto;
+  text-align: center;
+    background-color: #ffd40d;
+}
+button1 {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: red;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+    </style>
+<body>
+<!-- preloader -->
+<div class="preloader">
+    <div class="container">
+      <div class="dot dot-1"></div>
+      <div class="dot dot-2"></div>
+      <div class="dot dot-3"></div>
+    </div>
+</div>
+<header class="one">
+  <div class="top-header">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-xl-6">
+               <div class="d-flex align-items-center">
+                  <div class="content-header me-5">
+                    <i>
+                        <svg height="512" viewBox="0 0 32 32" width="512" xmlns="http://www.w3.org/2000/svg"><g id="_16-Smartphone" data-name="16-Smartphone"><path d="m23 2h-14a3 3 0 0 0 -3 3v22a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-22a3 3 0 0 0 -3-3zm-5.39 2-.33 1h-2.56l-.33-1zm6.39 23a1 1 0 0 1 -1 1h-14a1 1 0 0 1 -1-1v-22a1 1 0 0 1 1-1h3.28l.54 1.63a2 2 0 0 0 1.9 1.37h2.56a2 2 0 0 0 1.9-1.37l.54-1.63h3.28a1 1 0 0 1 1 1z"/><path d="m17 24h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2z"/></g></svg>
+                    </i><h4>Phone:<a href="callto:+1(850)344066">+1 (850) 344 0 66</a></h4>
+                  </div>
+                  <div class="content-header">
+                    <i>
+                        <svg height="512" viewBox="0 0 32 32" width="512" xmlns="http://www.w3.org/2000/svg"><g id="_01-Email" data-name="01-Email"><path d="m29.61 12.21-13-10a1 1 0 0 0 -1.22 0l-13 10a1 1 0 0 0 -.39.79v14a3 3 0 0 0 3 3h22a3 3 0 0 0 3-3v-14a1 1 0 0 0 -.39-.79zm-13.61-7.95 11.36 8.74-11.36 8.74-11.36-8.74zm11 23.74h-22a1 1 0 0 1 -1-1v-12l11.39 8.76a1 1 0 0 0 1.22 0l11.39-8.76v12a1 1 0 0 1 -1 1z"/></g></svg>
+                     </i><h4>Email:<a href="mailto:+1(850)344066">info@domain.com</a></h4>
+                  </div>
+               </div>
+            </div>
+            <div class="col-xl-6">
+               <div class="d-flex align-items-center login">
+               <div class="header-social-media">
+                  <a href="#">
+                     Facebook
+                  </a>
+                  <a href="#">
+                     Instagram
+                  </a>
+                  <a href="#">
+                     Youtube
+                  </a>
+               </div>
+                   {% if user.is_authenticated %}
+                    <ul class="navbar-nav mr-2">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href='#' id="navbarDropdown" role="button" data-toggle="dropdown"> Welcome {{request.user}}</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                 <a class="dropdown-item" href="/shop/Profile/">Profile</a>
+              <a class="dropdown-item" href="/shop/logout/">Logout</a>
+            </div>
+          </li>
+        </ul>
+                    {% else %}
+               <div class="register">
+                  <i>
+                     <svg clip-rule="evenodd" fill-rule="evenodd" height="512" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 32 32" width="512" xmlns="http://www.w3.org/2000/svg"><g id="Approved-User"><path d="m10.105 22.3c.21-.482.511-.926.89-1.305.797-.797 1.878-1.245 3.005-1.245h4c1.127 0 2.208.448 3.005 1.245.379.379.68.823.89 1.305.166.379.608.553.988.387.379-.165.553-.608.387-.987-.285-.653-.691-1.253-1.204-1.766-1.078-1.078-2.541-1.684-4.066-1.684-1.3 0-2.7 0-4 0-1.525 0-2.988.606-4.066 1.684-.513.513-.919 1.113-1.204 1.766-.166.379.008.822.387.987.38.166.822-.008.988-.387z"/><path d="m16 8.25c-3.174 0-5.75 2.576-5.75 5.75s2.576 5.75 5.75 5.75 5.75-2.576 5.75-5.75-2.576-5.75-5.75-5.75zm0 1.5c2.346 0 4.25 1.904 4.25 4.25s-1.904 4.25-4.25 4.25-4.25-1.904-4.25-4.25 1.904-4.25 4.25-4.25z"/><path d="m26.609 12.25c.415 1.173.641 2.435.641 3.75 0 6.209-5.041 11.25-11.25 11.25s-11.25-5.041-11.25-11.25 5.041-11.25 11.25-11.25c1.315 0 2.577.226 3.75.641.39.138.819-.067.957-.457s-.067-.819-.457-.957c-1.329-.471-2.76-.727-4.25-.727-7.037 0-12.75 5.713-12.75 12.75s5.713 12.75 12.75 12.75 12.75-5.713 12.75-12.75c0-1.49-.256-2.921-.727-4.25-.138-.39-.567-.595-.957-.457s-.595.567-.457.957z"/><path d="m21.47 8.53 2 2c.293.293.767.293 1.06 0l4-4c.293-.292.293-.768 0-1.06-.292-.293-.768-.293-1.06 0l-3.47 3.469s-1.47-1.469-1.47-1.469c-.292-.293-.768-.293-1.06 0-.293.292-.293.768 0 1.06z"/></g></svg>
+                  </i><a href="/shop/login" class="btn btn-success mx-2">Login</a>
+                   <a class="btn btn-success mx-2" data-toggle="modal" data-target="#loginModal">Register</a>
+               </div>
+                   {% endif %}
+               </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="bottom-bar ">
+    <div class="container">
+         <div class="row align-items-center">
+            <div class="col-xl-6">
+               <div class="d-flex align-items-center justify-content-between">
+                  <div class="logo" style="margin-top:20px;">
+                     <a href="index.html">
+                        <img alt="logo" src="{% static 'img/logo.png' %}">
+                     </a>
+                  </div>
+                  <div class="d-flex cart-checkout">
+                    <a href="cart-checkout.html">
+                        <i>
+                            <svg enable-background="new 0 0 512 512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><g>
+                            <path d="m452 120h-60.946c-7.945-67.478-65.477-120-135.054-120s-127.109 52.522-135.054 120h-60.946c-11.046 0-20 8.954-20 20v352c0 11.046 8.954 20 20 20h392c11.046 0 20-8.954 20-20v-352c0-11.046-8.954-20-20-20zm-196-80c47.484 0 87.019 34.655 94.659 80h-189.318c7.64-45.345 47.175-80 94.659-80zm176 432h-352v-312h40v60c0 11.046 8.954 20 20 20s20-8.954 20-20v-60h192v60c0 11.046 8.954 20 20 20s20-8.954 20-20v-60h40z"></path></g></svg>
+                        </i>
+                    </a>
+                    <div class="bar-menu">
+                         <i class="fa-solid fa-bars"></i>
+                    </div>
+                  </div>
+               </div>
+            </div>
+           <nav class="navbar" style="margin-top:-65px; margin-left:-60px;">
+            <div class="col-xl-6">
+                  <ul class="navbar-links">
+                    <li class="navbar-dropdown">
+                      <a href="/shop">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                      <li class="navbar-dropdown">
+                      <a href="/shop/index">Menu</a>
+                    </li>
+                    <li class="navbar-dropdown">
+                      <a href="/shop/tracker">Tracker</a>
+                    </li>
+                    <li class="navbar-dropdown">
+                      <a href="/shop/orderView/">Orders</a>
+                    </li>
+                    <li class="navbar-dropdown">
+                      <a href="/shop/contact">Contact</a>
+                    </li>
+                  </ul>
+              <div style="margin-left:540px; margin-top:-80px;">
+                      <form method="get" action="/shop/search" class="form-inline my-2 my-lg-0 mx-3">
+                         <input style="width:250px; height:30px;" class="form-control mr-sm-2" type="search" name="search" id="search" placeholder="Search" aria-label="Search" required>
+                               <button style="height:30px; margin-left:75px;" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                      </form>
+              </div >
+              <div style="margin-left:850px; margin-top:-50px;">
+                   <button type="button" class="btn btn-warning mx-2" id="popcart" data-container="body" data-html="true" data-toggle="popover" title="MyCart" data-placement="bottom" data-content="Bottom popover">
+                        Cart(<span id="cart">0</span>)
+                   </button>
+              </div>
+            </div>
+     </nav>
+    </div>
+  </div>
+  </div>
+</header>
+<br>
+
+<div class="container">
+  <ul class="nav nav-tabs" >
+    <li class="active"><a data-toggle="tab" href="#home">Profile</a></li>
+    <li><a style="margin-left:50px;s" data-toggle="tab" href="#menu1">Change Password</a></li>
+  </ul>
+
+
+ <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <div class="card" style=" margin-top: 100px; background-color: #ffd40d; text-align: center; margin: auto; border-radius: 25px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); max-width: 600px; height: 450px;" >
+          <h1>Profile</h1>
+   <h3>Username: {{user.username}}</h3>
+     <p>Email: {{user.email1}}</p>
+          <p>First Name: {{user.f_name}}</p>
+          <p>Last Name: {{user.l_name}}</p>
+     <p>Date Joined : {{user.date_joined}}</p>
+     <p>Last Login : {{user.last_login}}</p>
+     <p>Is Admin : {{user.is_superuser}}</p>
+     <p>Is Staff: {{user.is_staff}}</p>
+     <p>Is Active : {{user.is_active}}</p>
+          <button style="width: 200px; height: 50px; margin-left: 190px; margin-top:20px;" type="submit" class="button" ><a href="/shop/logout/">LOG OUT</a></button>
+</div>
+    </div>
+    <div id="menu1" class="tab-pane fade">
+
+         <div class="col-lg-6" >
+             <div class="box login" style="margin-top: 30px;">
+            <h3>Change Password</h3>
+              <form action="" method="post">
+                  {% csrf_token %}
+              <input type="password" class="form-control" name="cpass" id="cpass" placeholder="Current Password" onkeyup="check_pass()" required>
+              <input type="password" class="form-control" name="npass" id="npass" placeholder="New Password" onkeyup="check_pass()" required>
+              <button type="submit" class="form-control" class="button">Change Password</button>
+            </form>
+             </div>
+        </div>
+    </div>
+    <div id="menu2" class="tab-pane fade">
+      <h3>My Orders</h3>
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+
+<script>
+    function check_pass(){
+       let cp = $("cpass").val();
+       let np = $("npass").val();
+          if(cp==np){
+             $("#cpass").css("border","1px solid green");
+             $("#npass").css("border","1px solid green");
+          }else{
+             $("#cpass").css("border","5px solid black");
+             $("#npass").css("border","5px solid black");
+          }
+    }
+</script>
+<footer class="three" style="background-image:url({% static 'img/patron-black.jpg' %})">
+   <div class="container gap no-bottom">
+      <div class="row">
+         <div class="col-xl-8">
+            <div class="footer-text">
+               <a href="index.html">
+                  <img alt="logo-white" src="{% static 'img/logo-white-color.png' %}">
+               </a>
+               <p>All produced by using fresh ingredients and serving up delicious food, every time. Including pizza and pasta dishes, as well as fresh salads, burgers, steaks, risottos and indulgent desserts</p>
+            </div>
+            <div class="link-about Newsletter">
+               <h3>Newsletter</h3>
+               <form>
+                  <label>Subscribe and Get Recent News and Updates</label>
+                  <input type="text" name="Enter Your Email Address" placeholder="Enter Your Email Address....">
+                  <button class="button">subscribe</button>
+               </form>
+            </div>
+         </div>
+         <div class="col-xl-4">
+            <div class="link-about Newsletter">
+               <h3 class="mt-0">Contact Info</h3>
+               <ul>
+                  <li><span>Mon - Sat:</span><span class="ps-5">1:00 p.m. – 3:00 p.m</span></li>
+                  <li><span>Sunday:</span><span class="ps-5">12:30 p.m. to 3:30 p.m.</span></li>
+                  <li><span>Festivals:</span><span class="ps-5">Open Full Day</span></li>
+               </ul>
+            </div>
+            <ul class="booking">
+               <li class="contact">
+                  <i>
+                     <svg height="512" viewBox="0 0 32 32" width="512" xmlns="http://www.w3.org/2000/svg"><g id="_16-Smartphone" data-name="16-Smartphone"><path d="m23 2h-14a3 3 0 0 0 -3 3v22a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-22a3 3 0 0 0 -3-3zm-5.39 2-.33 1h-2.56l-.33-1zm6.39 23a1 1 0 0 1 -1 1h-14a1 1 0 0 1 -1-1v-22a1 1 0 0 1 1-1h3.28l.54 1.63a2 2 0 0 0 1.9 1.37h2.56a2 2 0 0 0 1.9-1.37l.54-1.63h3.28a1 1 0 0 1 1 1z"/><path d="m17 24h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2z"/></g></svg>
+                  </i>
+                  <div>
+                     <span>for booking</span>
+                     <a href="callto:01123456786"><span>01 123 456 786 </span></a>
+                  </div>
+               </li>
+               <li class="contact">
+                  <i>
+                     <svg height="512" viewBox="0 0 32 32" width="512" xmlns="http://www.w3.org/2000/svg"><g id="_01-Email" data-name="01-Email"><path d="m29.61 12.21-13-10a1 1 0 0 0 -1.22 0l-13 10a1 1 0 0 0 -.39.79v14a3 3 0 0 0 3 3h22a3 3 0 0 0 3-3v-14a1 1 0 0 0 -.39-.79zm-13.61-7.95 11.36 8.74-11.36 8.74-11.36-8.74zm11 23.74h-22a1 1 0 0 1 -1-1v-12l11.39 8.76a1 1 0 0 0 1.22 0l11.39-8.76v12a1 1 0 0 1 -1 1z"></path></g></svg>
+                  </i>
+                  <div>
+                     <span>for private dining</span>
+                     <a href="mailto:info@domain.com"><span>info@domain.com</span></a>
+                  </div>
+               </li>
+               <li class="contact">
+                  <i>
+                     <svg height="512" viewBox="0 0 32 32" width="512" xmlns="http://www.w3.org/2000/svg"><g id="_06-Location" data-name="06-Location"><path d="m25 21.61a1 1 0 1 0 -.84 1.82c1.37.57 1.84 1.23 1.84 1.57 0 1.19-4 3-10 3s-10-1.81-10-3c0-.34.47-1 1.8-1.57a1 1 0 1 0 -.8-1.82c-2.49 1.12-3 2.46-3 3.39 0 3.28 6 5 12 5s12-1.72 12-5c0-.93-.51-2.27-3-3.39z"></path><path d="m15.45 25.83a1 1 0 0 0 1.1 0c.39-.26 9.45-6.38 9.45-13.83a10 10 0 0 0 -20 0c0 7.45 9.06 13.57 9.45 13.83zm.55-21.83a8 8 0 0 1 8 8c0 5.41-6.1 10.36-8 11.77-1.9-1.41-8-6.36-8-11.77a8 8 0 0 1 8-8z"></path><path d="m21 12a5 5 0 1 0 -5 5 5 5 0 0 0 5-5zm-8 0a3 3 0 1 1 3 3 3 3 0 0 1 -3-3z"></path></g></svg>
+                  </i>
+                  <div>
+                     <span>location</span>
+                     <h6>New Street Town 2512x (U.S)</h6></div>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </div>
+   <div style="background-color: #000;">
+      <div class="container">
+         <div class="footer-bootem">
+            <h6><span>© 2023 Foodio</span> | Restaurant and BBQ.</h6>
+            <div class="header-social-media">
+               <a href="#">Facebook</a>
+               <a href="#">Twitter</a>
+               <a href="#">Instagram</a>
+               <a href="#">Youtube</a>
+            </div>
+         </div>
+      </div>
+   </div>
+</footer>
+
+
+  <!-- Login Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModal" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header" style="background-color: rgb(111 202 203);">
+            <h5 class="modal-title" id="loginModal">Login Here</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form action="/shop/login/" method="post">{% csrf_token %}
+              <div class="text-left my-2">
+                  <b><label for="username">Username</label></b>
+                  <input class="form-control" id="loginusername" name="loginusername" placeholder="Enter Your Username" type="text" required pattern="^[a-z]{3,15}$">
+              </div>
+              <div class="text-left my-2">
+                  <b><label for="password">Password</label></b>
+                  <input class="form-control" id="loginpassword" name="loginpassword" placeholder="Enter Your Password" type="password" required data-toggle="password">
+              </div>
+              <button type="submit" class="btn btn-success">Submit</button>
+              <a href="/shop/reset_password/" style="padding-left: 250px;">Forgot password?</a>
+            </form>
+            <p class="mb-0 mt-1">Don't have an account? <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#signupModal">Sign up now</a>.</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sign up Modal -->
+    <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModal" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header" style="background-color: rgb(111 202 203);">
+            <h5 class="modal-title" id="signupModal">SignUp Here</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form action="/shop/signup/" method="post">{% csrf_token %}
+              <div class="form-group">
+                  <b><label for="username">Username</label></b>
+                  <input class="form-control" id="username" name="username" placeholder="Choose a unique Username" type="text" required pattern="^[a-z]{3,15}$">
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <b><label for="f_name">First Name:</label></b>
+                  <input type="text" class="form-control" id="f_name" name="f_name" placeholder="First Name" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <b><label for="l_name">Last name:</label></b>
+                  <input type="text" class="form-control" id="l_name" name="l_name" placeholder="Last name" required>
+                </div>
+              </div>
+              <div class="form-group">
+                  <b><label for="email1">Email:</label></b>
+                  <input type="email" class="form-control" id="email1" name="email1" placeholder="Enter Your Email" required>
+              </div>
+              <div class="form-group">
+                <b><label for="phone">Phone No:</label></b>
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon">+91</span>
+                  </div>
+                  <input type="tel" class="form-control" id="phone" name="phone" placeholder="Enter Your Phone Number" required pattern="[0-9]{10}">
+                </div>
+              </div>
+              <div class="text-left my-2">
+                  <b><label for="password">Password:</label></b>
+                  <input class="form-control" id="password" name="password" placeholder="Enter Password" type="password" required data-toggle="password">
+              </div>
+              <div class="text-left my-2">
+                  <b><label for="password1">Renter Password:</label></b>
+                  <input class="form-control" id="password1" name="password1" placeholder="Renter Password" type="password" required data-toggle="password">
+              </div>
+              <button type="submit" class="btn btn-success">Submit</button>
+            </form>
+            <p class="mb-0 mt-1">Already have an account? <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#loginModal">Login here</a>.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    {% if messages %}
+        {% for message in messages %}
+          <div class="alert alert-{{ message.tags }} alert-dismissible mb-0" role="alert">
+            <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">×</span></button>
+            {{ message }}
+          </div>
+        {% endfor %}
+    {% endif %}
+    {% block body %} {% endblock %}
+    <div class="footer container-fluid bg-dark text-light">
+        <p class="text-center py-2 mb-0">Copyright © 2021 Designed by <a href="https://github.com/darshankparmar" target="_blank" rel="noopener noreferrer">@darshankparmar</a></p>
+    </div>
+
+
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/bootstrap-show-password@1.2.1/dist/bootstrap-show-password.min.js"></script>
+    {% block js %} {% endblock %}
+<script>
+// console.log({{request.user.id}});
+if (localStorage.getItem('cart') == null) {
+    var cart = {};
+
+} else {
+    cart = JSON.parse(localStorage.getItem('cart'));
+    updateCart(cart);
+}
+
+// If the add to cart button is clicked, add/increment the item
+$('.divpr').on('click', 'button.cart', function() {
+    var idstr = this.id.toString();
+    //console.log(idstr);
+    if (cart[idstr] != undefined) {
+        qty = cart[idstr][0] + 1;
+    } else {
+        qty = 1;
+        name = document.getElementById('name'+idstr).innerHTML;
+        price = document.getElementById('price'+idstr).innerHTML;
+        cart[idstr] = [qty, name, parseInt(price)];
+    }
+    updateCart(cart);
+});
+
+
+$('#popcart').popover();
+updatePopover(cart);
+
+function updatePopover(cart) {
+    var popStr = "";
+    popStr = popStr + "<div class='mx-2 my-2'>";
+    var i = 1;
+    var j = 0;
+    for(var item in cart) {
+        popStr = popStr + "<b>" + i + "</b>. ";
+        popStr = popStr + document.getElementById('name' + item).innerHTML.slice(0, 15) + "... (Qty: " + cart[item][0] + ')<br>';
+        i = i + 1;
+        j = j + 1;
+    }
+    if(j == 0) {
+        popStr = popStr + "<p><b> No item available in your cart </b></p><div class='mx-2 my-2'>";
+        popStr = popStr + "</div> <a href='/shop/index'><button class='btn btn-primary'>Add items</button></a> ";
+    }
+    else{
+        popStr = popStr + "</div> <a href='/shop/checkout'><button class='btn btn-primary' id='checkout'>Checkout</button></a> <a href='/shop/'><button class='btn btn-primary' onclick='clearCart()' id='clearCart'>Clear Cart</button></a>  ";
+    }
+    document.getElementById("popcart").setAttribute('data-content', popStr);
+    $('#popcart').popover();
+}
+
+function clearCart() {
+  cart = JSON.parse(localStorage.getItem('cart'));
+  for (var item in cart) {
+    document.getElementById('div' + item).innerHTML = '<button id="'+ item +'" class="btn btn-primary cart">Add to Cart</button>'
+  }
+  localStorage.clear();
+  cart = {};
+  updateCart(cart);
+}
+
+function updateCart(cart) {
+    //console.log(cart);
+    var sum = 0;
+    for (var item in cart) {
+        sum = sum + cart[item][0];
+        document.getElementById('div' + item).innerHTML = "<button id='minus" + item + "' class='btn btn-primary minus'>-</button> <span id='val" + item + "''>" + cart[item][0] + "</span> <button id='plus" + item + "' class='btn btn-primary plus'> + </button>";
+    }
+    localStorage.setItem('cart', JSON.stringify(cart));
+    document.getElementById('cart').innerHTML = sum;
+    updatePopover(cart);
+}
+
+$('.divpr').on("click", "button.minus", function() {
+    //console.log("minus clicked");
+    a = this.id.slice(7, );
+    cart['pr' + a][0] = cart['pr' + a][0] - 1;
+    cart['pr' + a][0] = Math.max(0, cart['pr' + a][0]);
+    if(cart['pr' + a][0] == 0) {
+        document.getElementById('divpr' + a).innerHTML = '<button id="pr'+a+'" class="btn btn-primary cart">Add to Cart</button>';
+        delete cart['pr'+a];
+    }
+    else {
+        document.getElementById('valpr' + a).innerHTML = cart['pr' + a][0];
+    }
+    updateCart(cart);
+
+});
+
+$('.divpr').on("click", "button.plus", function() {
+    //console.log("plus clicked");
+    a = this.id.slice(6, );
+    cart['pr' + a][0] = cart['pr' + a][0] + 1;
+    document.getElementById('valpr' + a).innerHTML = cart['pr' + a][0];
+    updateCart(cart);
+});
+
+document.getElementById('categoryList').innerHTML = '<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categories</a><div class="dropdown-menu" aria-labelledby="navbarDropdown" >{% for product, range, nSlides in allProds %}<a class="dropdown-item" href="/shop/search/?search={{product.0.category}}">{{product.0.category}}</a>{% endfor %}</div>';
+
+
+
+</script>
+<!--    <script>-->
+<!--    /* restrict user browser click go back button */-->
+<!--    function preback() { window.history.forward(); }-->
+<!--    setTimeout("preback()", 0);-->
+<!--    window.onunload = function() { null };-->
+
+<!--    /* Left click dissabled (not select any content or text)*/-->
+<!--    function disableselect(e) { return false; }-->
+
+<!--    function reEnable() { return true; }-->
+<!--    document.onselectstart = new Function("return false")-->
+<!--    if (window.sidebar) {-->
+<!--        document.onmousedown = disableselect-->
+<!--        document.onclick = reEnable-->
+<!--    }-->
+
+<!--    /* Right click dissabled */-->
+<!--    function ieClicked() { if (document.all) { return false; } }-->
+
+<!--    function firefoxClicked(e) { if (document.layers || (document.getElementById && !document.all)) { if (e.which == 2 || e.which == 3) { return false; } } }-->
+<!--    if (document.layers) {-->
+<!--        document.captureEvents(Event.MOUSEDOWN);-->
+<!--        document.onmousedown = firefoxClicked;-->
+<!--    } else {-->
+<!--        document.onmouseup = firefoxClicked;-->
+<!--        document.oncontextmenu = ieClicked;-->
+<!--    }-->
+<!--    document.oncontextmenu = new Function("return false")-->
+
+<!--    /* Dissable shortcut key */-->
+<!--    document.onkeydown = function(e) {-->
+<!--        if ((e.ctrlKey && e.shiftKey && (e.keyCode === 73)) || (e.ctrlKey && (e.keyCode === 65 || e.keyCode === 67 || e.keyCode === 72 || e.keyCode === 74 || e.keyCode === 78 || e.keyCode === 79 || e.keyCode === 80 || e.keyCode === 82 || e.keyCode === 83 || e.keyCode === 85 || e.keyCode === 86 || e.keyCode === 88 || e.keyCode === 89 || e.keyCode === 90))) { return false; }-->
+<!--        return true;-->
+<!--    };-->
+<!--    </script>-->
+                <!-- progress -->
+<!-- progress -->
+<div id="progress">
+      <span id="progress-value"><i class="fa-solid fa-arrow-up"></i></span>
+</div>
+<!-- Bootstrap Js -->
+<script src="{% static 'js/bootstrap.min.js' %}"></script>
+<script src="{% static 'js/owl.carousel.min.js' %}"></script>
+<!-- fancybox -->
+<script src="{% static 'js/jquery.fancybox.min.js' %}"></script>
+<script src="{% static 'js/custom.js' %}"></script>
+
+</body>
+
+
+
